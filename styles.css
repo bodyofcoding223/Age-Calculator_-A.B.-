@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+    text-align: center;
+}
+
+.container {
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.input-section {
+    margin: 15px 0;
+}
+
+label {
+    font-size: 16px;
+}
+
+input {
+    padding: 10px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+    text-align: left;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #555;
+}
+
+.calendar-icon {
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+/* Hide date input fields but keep the functionality */
+input[type="date"] {
+    display: none;
+}
+
+/* Styling for the calendar icon */
+.calendar-icon {
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
